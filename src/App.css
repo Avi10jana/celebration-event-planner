@@ -1,0 +1,26 @@
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ════════════════════════════════════════
+   MAIN CONTENT
+   ════════════════════════════════════════ */
+.main-content {
+  flex: 1;
+  padding: 28px 24px 100px;
+}
+
+.content-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* ════════════════════════════════════════
+   RESPONSIVE UTILITIES
+   ════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .btn-text-desktop { display: none; }
+  .main-content { padding: 20px 14px 96px; }
+}
